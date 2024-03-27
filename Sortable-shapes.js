@@ -40,3 +40,5 @@ class Rectangle extends Shape{constructor(height, width) {super(height * width)}
 class Triangle extends Shape{constructor(base, height) {super((base * height) / 2)}}
 class Circle extends Shape{constructor(radius) {super(radius * radius * Math.PI)}}
 class CustomShape extends Shape{constructor(area) {super(area)}}
+
+// or
